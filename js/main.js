@@ -1,0 +1,12 @@
+
+
+
+
+function tocaSomPom(){
+    document.querySelector('#som_tecla_pom').play();
+    console.log("Tocando");
+}
+
+
+
+document.querySelector('.tecla_pom').onclick = tocaSomPom;
